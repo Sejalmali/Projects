@@ -1,0 +1,122 @@
+
+
+body {
+    margin: 0;
+    overflow: hidden;/* Hide overflow to prevent scrolling */
+    font-family: Arial, sans-serif;
+    /* background-image: url('index_bg.jpg'); */
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+#top-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+#video-container {
+    background-color: rgb(243, 161, 161);
+    position: absolute;
+    top: 80px; /* Adjust as needed based on the height of the top container */
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#video-feed {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#save_button, #logout_button, #welcome_message {
+    margin: 0;
+    padding: 0;
+}
+
+#welcome_message {
+    flex-grow: 1;
+    text-align: left;
+}
+
+#save_button, #logout_button {
+    margin-left: 10px;
+}
+
+#save_button {
+    background: #4CAF50;
+    border: 2px solid #162938;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 500;
+    margin-left: 10px;
+    transition: 0.5s;
+}
+
+#logout_button {
+    background: rgb(184, 46, 46);
+    border: 2px solid #162938;
+    color: #fff; 
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 500;
+    margin-left: 10px;
+    transition: 0.5s;
+}
+
+#save_button:hover {
+    background: #162938; 
+    color: #fff;
+}
+
+#logout_button:hover {
+    background: #162938;
+    color: #fff;
+}
+
+
+/* #save_button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#logout_button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+} */

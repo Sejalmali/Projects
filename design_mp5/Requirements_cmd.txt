@@ -1,0 +1,8 @@
+pip install flask 
+pip install flask_bcrypt 
+pip install mysql 
+pip install mysql-connector-python
+pip install opencv-python
+pip install mediapipe
+pip install --upgrade opencv-python
+pip install --upgrade mediapipe
